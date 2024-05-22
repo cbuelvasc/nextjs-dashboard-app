@@ -18,6 +18,7 @@ import { Input } from '@/components/ui/input';
 import { Sheet, SheetTrigger } from '@/components/ui/sheet';
 import './globals.css';
 import { MobileSidebar } from '@/components/sidebar/MobileSidebar';
+import Image from 'next/image';
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -75,7 +76,13 @@ export default function RootLayout({
 							<DropdownMenu>
 								<DropdownMenuTrigger asChild>
 									<Button variant='secondary' size='icon' className='rounded-full'>
-										<LuUserCircle className='h-5 w-5' />
+										<Image
+											className='h-5 w-5 rounded-full'
+											src='https://images.unsplash.com/photo-1542909168-82c3e7fdca5c'
+											alt='User Avatar'
+											width={60}
+											height={60}
+										/>
 										<span className='sr-only'>Toggle user menu</span>
 									</Button>
 								</DropdownMenuTrigger>

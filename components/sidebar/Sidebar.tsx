@@ -10,7 +10,7 @@ import {
 import { SidebarMenuItem } from './SidebarMenuItem';
 
 const menuItems = [
-	{ path: '/', icon: <LuHome className='h-4 w-4' />, title: 'Dashboard', subtitle: '' },
+	{ path: '/', icon: <LuHome className='h-4 w-4' />, title: 'Dashboard', subtitle: 'Visualización' },
 	{ path: '/counter', icon: <LuCalculator className='h-4 w-4' />, title: 'Counter', subtitle: '' },
 	{
 		path: '/orders',

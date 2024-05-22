@@ -17,7 +17,7 @@ $ docker build -t nextjs-dashboard-app .
 ```
 
 ### Run Image
-
+ 
 ```bash
 $ docker run -dp 3000:3000 nextjs-dashboard-app
 ```
