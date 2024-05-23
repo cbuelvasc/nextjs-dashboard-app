@@ -6,6 +6,7 @@ import {
 	LuUsers,
 	LuCalculator,
 	LuPackage2,
+	LuFilm,
 } from 'react-icons/lu';
 
 import { SidebarMenuItem } from './SidebarMenuItem';
@@ -16,6 +17,7 @@ import Link from 'next/link';
 const menuItems = [
 	{ path: '/', icon: <LuHome className='h-5 w-5' />, title: 'Dashboard', subtitle: '' },
 	{ path: '/counter', icon: <LuCalculator className='h-5 w-5' />, title: 'Counter', subtitle: '' },
+	{ path: '/pokemons', icon: <LuFilm className='h-4 w-4' />, title: 'Pokemons', subtitle: '' },
 	{
 		path: '/orders',
 		icon: <LuShoppingCart className='h-5 w-5' />,
